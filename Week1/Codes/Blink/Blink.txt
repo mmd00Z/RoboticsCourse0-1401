@@ -1,0 +1,12 @@
+Turn an LED on and off. 
+
+PESUDO Code:
+
+setup:
+	config led output
+
+loop:
+	led on
+	1 second delay
+	led off
+	1 second delay
