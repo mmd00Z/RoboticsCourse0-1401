@@ -17,15 +17,15 @@ void setup() {
 void loop() {
   int sensor_val = digitalRead(RECIVER);
 
-  // if (sensor_val == 0)
-  // {
-  //   digitalWrite(LED, 1);
-  // }
-  // else
-  // {
-  //   digitalWrite(LED, 0);
-  // }
+  if (sensor_val == 0)
+  {
+    digitalWrite(LED, 1);
+  }
+  else
+  {
+    digitalWrite(LED, 0);
+  }
 
   // set led logical state --> not sensor_val
-  digitalWrite(LED, !sensor_val);
+  // digitalWrite(LED, !sensor_val);
 }
